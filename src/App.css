@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+}
+.container {
+  position: relative; /* Resimle aynı seviyede olmasını sağlar */
+}
+
+.container img {
+  width: 100px; /* Resmin genişliği */
+  height: auto; /* Yüksekliği otomatik ayarlar */
+  position: absolute; /* Resmin konumu */
+  top: 10px; /* Üst boşluk */
+  right: 10px; /* Sağ boşluk */
+  margin-bottom: 10px;
+  
+}
+.img-with-shadow {
+}
+
